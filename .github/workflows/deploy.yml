@@ -30,7 +30,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20          # 使用 Node.js 20 版本（Vite 要求 20.19+）
+          node-version: 24          # 使用 Node.js 20 版本（Vite 要求 20.19+）
           cache: 'npm'               # 缓存 npm 依赖，加速后续构建
 
       # 步骤3：安装依赖（使用 package-lock.json 确保一致性）
