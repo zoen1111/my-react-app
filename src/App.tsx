@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h2>学号:20235080903016,姓名:钟宇权</h2>
+      <h2>学号: 20235080903028,姓名:邱越</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
